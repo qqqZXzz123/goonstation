@@ -36,9 +36,9 @@
 	if (config?.server_name)
 		statsus += "<b><a href=\"https://goonhub.com\">[config.server_name]</a></b>"
 	else
-		statsus += "<b>SERVER NAME HERE</b>"
+		statsus += "<b>Goonstation (RU) Unofficial</b>"
 
-	statsus += " — The classic SS13 experience. — (<a href=\"http://bit.ly/gndscd\">Discord</a>)<br>"
+	statsus += " — Сервер запущен для Tau Ceti. — <a href=\"https://discord.gg/sSekfcSytR\">Ds</a><br>"
 
 	if(ticker?.round_elapsed_ticks > 0 && current_state == GAME_STATE_PLAYING)
 		statsus += "Time: <b>[round(ticker.round_elapsed_ticks / 36000)]:[add_zero(num2text(ticker.round_elapsed_ticks / 600 % 60), 2)]</b>"
